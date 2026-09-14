@@ -75,7 +75,7 @@ Director of Software Development / Technical Lead at OCG Companies from August 2
 
 ## Source Notes
 
-- Evidence extracted from David Gordhamer resume 2.4 and related resume documents in the parent Resume folder on September 3, 2026.
+- Evidence extracted from David Gordhamer resume 2.4 and related resume documents in the parent resume folder on September 3, 2026.
 - Corrected OCG end date: November 13, 2025.
 - Confirm whether the utility pole inspection work was a separate title, an initiative within OCG, or both.
 - Add documented business metrics, customer counts, project savings, delivery time, or operational-volume measures when available.
