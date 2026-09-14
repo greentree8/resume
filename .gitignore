@@ -1,0 +1,8 @@
+# Private local-only resume archive
+private-archive/
+
+# macOS and editor files
+.DS_Store
+*.swp
+*.swo
+*~
