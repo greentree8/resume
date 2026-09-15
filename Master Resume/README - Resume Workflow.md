@@ -22,4 +22,4 @@ Use:
 
 `Tailored/<Company> - <Role> - YYYY-MM-DD.md`
 
-Keep the source files unchanged when generating a tailored version.
+Store generated tailored versions in the private applications repository, not in the public resume repository. Keep the source files unchanged when generating a tailored version.
