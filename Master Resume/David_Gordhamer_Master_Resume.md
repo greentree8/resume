@@ -1,6 +1,6 @@
 # David Gordhamer
 
-Greater Minneapolis–St. Paul Area | 952-288-8249 | davidlg@gmail.com
+Greater Minneapolis-St. Paul Area | 952-288-8349 | davidlg@gmail.com
 
 ## Professional Summary
 
@@ -18,7 +18,7 @@ Senior Automation/Software Engineer with 15+ years of experience building and va
 
 - Standardized reusable fixtures and templates that ensured stable test behavior across the engineering team, improving adoption and lowering test churn.
 
-- Stabilized flaky tests and reduced CI pipeline reruns, saving approximately 5–15 hours of deployment-pipeline time per month.
+- Stabilized flaky tests and reduced CI pipeline reruns, saving approximately 5-15 hours of deployment-pipeline time per month.
 
 - Resolved production defects affecting financial correctness and reporting, including CRE DSCR and CFADS formulas, pro forma adjustments, deposit-rate normalization, balance-sheet liquidity, debt-schedule periodization, and historical-period handling.
 
@@ -28,7 +28,7 @@ Senior Automation/Software Engineer with 15+ years of experience building and va
 
 - Applied AI-assisted development workflows to codebase analysis, story refinement, requirements clarification, technical documentation, troubleshooting, test planning, and implementation support; shared practical AI techniques with teammates and helped develop repeatable engineering practices.
 
-- Converted exploratory test findings into structured user stories, accelerating sprint velocity by approximately 0.5–1 day per sprint.
+- Converted exploratory test findings into structured user stories, accelerating sprint velocity by approximately 0.5-1 day per sprint.
 
 - Introduced a shadow-copy development workflow that reduced new-story setup time from approximately 10 minutes to 2 minutes and reduced local storage requirements from roughly 1 GB to 200 MB.
 
