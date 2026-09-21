@@ -14,8 +14,8 @@ This is the source of truth for resume facts. Add evidence here before tailoring
 - 134 commits attributed to the author's known Git identities in the checked-out repository history
 - 55 test-related commits identified by commit subject
 - Standardized reusable fixtures and templates to ensure stable test behavior across the engineering team; productivity impact was not measured.
-- Stabilized flaky tests and reduced CI pipeline reruns, saving approximately 5–15 hours of deployment-pipeline time per month.
-- Converted exploratory test findings into structured user stories, accelerating sprint velocity by approximately 0.5–1 day per sprint.
+- Stabilized flaky tests and reduced CI pipeline reruns, saving approximately 5-15 hours of deployment-pipeline time per month.
+- Converted exploratory test findings into structured user stories, accelerating sprint velocity by approximately 0.5-1 day per sprint.
 - Shadow-copy workflow reduced new-story setup time from approximately 10 minutes to 2 minutes
 - Shadow-copy workflow reduced local storage requirements from approximately 1 GB to 200 MB
 - Day.js configuration centralized across 10 files

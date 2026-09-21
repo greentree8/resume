@@ -14,6 +14,10 @@ Read the career evidence bank, the master resume, and the employer evidence file
 
 Use only supported facts. Do not invent metrics, technologies, titles, dates, user counts, or business outcomes. Prefer measurable outcomes when documented. Select the most relevant accomplishments for the posting, preserve chronological accuracy, and avoid repeating the same claim in multiple bullets.
 
+Use regular ASCII hyphens (`-`) for date ranges, numeric ranges, and compound
+phrases. Do not use en dashes (`–`) or em dashes (`—`) in resume source files
+or generated submission documents.
+
 After the resume, provide a short evidence audit listing the source file used for each selected accomplishment and identifying any claims that still need confirmation.
 
 ## Tailored Output Naming

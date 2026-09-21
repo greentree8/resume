@@ -26,8 +26,8 @@ Full-stack engineer and test automation engineer on an AWS-hosted, multi-tenant 
 
 - 55 test-related commits identified from the author's Git history by commit subject.
 - Standardized reusable Playwright fixtures and templates to ensure stable test behavior across the engineering team; the productivity impact was not measured.
-- Stabilized flaky tests and reduced CI pipeline reruns, saving approximately 5–15 hours of deployment-pipeline time per month.
-- Converted exploratory test findings into structured user stories, accelerating sprint velocity by approximately 0.5–1 day per sprint.
+- Stabilized flaky tests and reduced CI pipeline reruns, saving approximately 5-15 hours of deployment-pipeline time per month.
+- Converted exploratory test findings into structured user stories, accelerating sprint velocity by approximately 0.5-1 day per sprint.
 - Playwright page objects and fixtures for financial-statement inspector workflows.
 - Custom matchers for editable and non-editable field behavior.
 - Automated coverage for BFS and CRE calculations, import scenarios, debt schedules, DSCR, NOI, EBITDA adjustments, requirement appearance, and zero-divisor ratios.
