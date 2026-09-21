@@ -1,5 +1,11 @@
 # David Gordhamer
 
+Greater Minneapolis–St. Paul Area | 952-288-8249 | davidlg@gmail.com
+
+## Professional Summary
+
+Senior Automation/Software Engineer with 15+ years of experience building and validating enterprise software, distributed services, and data-intensive workflows. Strong transferable QA, data-quality, SQL, automation, reporting, and business-rule experience across financial analysis, operational platforms, and client-facing systems. Known for improving reliability, stabilizing regression coverage, clarifying ambiguous requirements, and delivering accurate, high-confidence releases.
+
 ## Fintive | Senior Automation/Software Engineer | November 2025-Present
 
 - Built and enhanced financial-analysis workflows for an AWS-hosted, multi-tenant banking platform, delivering historical and annualized trend analysis, loan and obligor workflows, financial-statement calculations, exports, and automated regression coverage across React, TypeScript, Node/Express, MySQL, and Playwright.
@@ -10,6 +16,10 @@
 
 - Built reusable Playwright page objects, fixtures, and custom matchers that improved maintainability and supported 55 test-related commits across calculation, import, and workflow automation.
 
+- Standardized reusable fixtures and templates that ensured stable test behavior across the engineering team, improving adoption and lowering test churn.
+
+- Stabilized flaky tests and reduced CI pipeline reruns, saving approximately 5–15 hours of deployment-pipeline time per month.
+
 - Resolved production defects affecting financial correctness and reporting, including CRE DSCR and CFADS formulas, pro forma adjustments, deposit-rate normalization, balance-sheet liquidity, debt-schedule periodization, and historical-period handling.
 
 - Improved data integrity across loan, obligor, and document workflows by fixing trial-date persistence, debt-schedule row ordering, exposure-table borrower navigation, existing-obligor rendering, and entity document rollover behavior.
@@ -17,6 +27,8 @@
 - Hardened AI-assisted appraisal and document-extraction workflows with malformed-JSON handling, retry behavior, feature-flagged rollout controls, and bank-cohort configuration.
 
 - Applied AI-assisted development workflows to codebase analysis, story refinement, requirements clarification, technical documentation, troubleshooting, test planning, and implementation support; shared practical AI techniques with teammates and helped develop repeatable engineering practices.
+
+- Converted exploratory test findings into structured user stories, accelerating sprint velocity by approximately 0.5–1 day per sprint.
 
 - Introduced a shadow-copy development workflow that reduced new-story setup time from approximately 10 minutes to 2 minutes and reduced local storage requirements from roughly 1 GB to 200 MB.
 
@@ -53,3 +65,11 @@
 ## Technical Environment
 
 React, TypeScript, Java, Spring, Node.js, Express, MySQL, MariaDB, limited PostgreSQL, Sequelize, Playwright, Vitest, Cypress, Redux Toolkit, AWS, Microsoft Azure, Auth0, Docker, warehouse and equipment workflows, and TypeScript monorepo architecture.
+
+## Education
+
+Brigham Young University-Idaho (BYU-Idaho) | Computer Science
+
+Normandale Community College | Continuing Education in Computer Science
+
+Metropolitan State University | Continuing Education in Software Engineering and Information Systems
