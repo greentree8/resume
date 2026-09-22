@@ -84,6 +84,7 @@ This is the source of truth for resume facts. Add evidence here before tailoring
 - Helped establish Agile delivery, code review, automated testing, mentoring, and cross-team knowledge-sharing practices.
 - Owned defect triage by prioritizing reported issues, assessing root causes, assigning work across teams, and implementing fixes and enhancements.
 - Resolved complex multi-tier issues involving domain-object serialization, cross-tier proxy communication, RESTEasy error handling, and application-infrastructure behavior.
+- Tuned New Relic alerting and performance metrics, used New Relic and Splunk to troubleshoot reported user issues and resolve account problems, and added application signals for user-conversion and progress tracking to improve the overall user experience.
 - Worked with architects to standardize REST practices, HTTP error-code usage, REST verbs, JPA patterns, and persistence-layer conventions.
 - Introduced and trained teammates on Mockito and PowerMockito testing and mocking practices.
 

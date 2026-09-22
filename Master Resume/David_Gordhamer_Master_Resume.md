@@ -62,9 +62,11 @@ Senior Automation/Software Engineer with 15+ years of experience building and va
 
 - Resolved complex multi-tier issues involving domain-object serialization, cross-tier proxy communication, RESTEasy error handling, and application-infrastructure behavior; helped standardize REST, HTTP error-code, JPA, and persistence-layer practices.
 
+- Tuned New Relic alerting and performance metrics, used New Relic and Splunk to troubleshoot reported user issues and resolve account problems, and added application signals for user-conversion and progress tracking to improve the overall user experience.
+
 ## Technical Environment
 
-React, TypeScript, Java, Spring, Node.js, Express, MySQL, MariaDB, limited PostgreSQL, Sequelize, Playwright, Vitest, Cypress, Redux Toolkit, AWS, Microsoft Azure, Auth0, Docker, warehouse and equipment workflows, and TypeScript monorepo architecture.
+React, TypeScript, Java, Spring, Node.js, Express, MySQL, MariaDB, limited PostgreSQL, Sequelize, Playwright, Vitest, Cypress, Redux Toolkit, AWS, Microsoft Azure, Auth0, Docker, New Relic, Splunk, warehouse and equipment workflows, and TypeScript monorepo architecture.
 
 ## Education
 
