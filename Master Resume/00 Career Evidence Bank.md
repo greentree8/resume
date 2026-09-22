@@ -71,6 +71,9 @@ This is the source of truth for resume facts. Add evidence here before tailoring
 ### Scope
 - Software Developer, Senior Java Developer, and Engineering Lead, December 2009 through July 2021, immediately followed by the OCG role beginning in August 2021.
 - Enterprise candidate-registration and client-facing systems supported by distributed Java services and modernized web application platforms.
+- Worked closely with quality assurance engineers to structure and write tests, with a longstanding interest in QA and testability.
+- Partnered with QA and development teams to improve accessibility (a11y), semantic correctness, and maintainability of web applications.
+- Helped make page elements easier to identify in automated tests by using meaningful named attributes and stable selectors instead of brittle XPath expressions.
 - Technical environment: Java EE, Spring, Spring Data, Hibernate, JPA, OAuth2, AngularJS, Backbone.js, Node.js, Gradle, JBoss, TeamCity, JUnit, Mockito, and PowerMockito.
 - Much of the Pearson VUE work was performed on Microsoft Azure.
 
