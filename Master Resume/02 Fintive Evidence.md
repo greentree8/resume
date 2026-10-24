@@ -4,6 +4,8 @@
 
 Full-stack engineer and test automation engineer on an AWS-hosted, multi-tenant financial-services platform used for banking, loan analysis, risk review, financial statements, exports, and document workflows.
 
+The platform operated under SOC and PII compliance constraints (personal recollection, 2026-10-16).
+
 ## Full-Stack Product Delivery
 
 - React and TypeScript client work for trends, financial-statement inspection, exposure tables, loan and obligor workflows, exports, and document workflows.
@@ -53,9 +55,11 @@ Full-stack engineer and test automation engineer on an AWS-hosted, multi-tenant 
 
 - Introduced a shadow-copy development workflow, reducing new-story setup from approximately 10 minutes to 2 minutes and local storage from approximately 1 GB to 200 MB.
 - Centralized Day.js configuration across 10 files to prevent repeated plugin registration in isolated Vitest environments.
+- Wrote Bash scripts to automate development tasks and complex Git workflows; the shadow-copy workflow was implemented in one of these scripts (personal recollection, 2026-10-19).
 
 ## AI-Assisted SDLC
 
+- Used Claude Code heavily as a core development tool, with agents and subagents automating much of the development process (personal recollection, 2026-10-23).
 - Applied AI-assisted workflows to codebase analysis, story refinement, requirements clarification, technical documentation, troubleshooting, test planning, and implementation support.
 - Used AI to reduce repetitive analysis, boilerplate documentation, and code-exploration work while keeping solution design, validation, and engineering judgment with the team.
 - Shared practical AI techniques with teammates and helped develop repeatable practices for AI-assisted engineering.
@@ -72,4 +76,5 @@ Full-stack engineer and test automation engineer on an AWS-hosted, multi-tenant 
 
 - Git evidence comes from the Fintive repository history in the September 3, 2026 checkout.
 - The 134-commit and 55-test-commit figures are repository-history counts, not business-impact metrics.
-- Confirm exact job title, employment dates, user counts, revenue impact, and production performance metrics before adding them.
+- Employment dates recorded as November 2025 through August 2026; confirm exact end date.
+- Confirm exact job title, user counts, revenue impact, and production performance metrics before adding them.

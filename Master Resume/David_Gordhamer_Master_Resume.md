@@ -6,7 +6,7 @@ Greater Minneapolis-St. Paul Area | 952-288-8349 | davidlg@gmail.com
 
 Senior Automation/Software Engineer with 15+ years of experience building and validating enterprise software, distributed services, and data-intensive workflows. Strong transferable QA, data-quality, SQL, automation, reporting, and business-rule experience across financial analysis, operational platforms, and client-facing systems. Known for improving reliability, stabilizing regression coverage, clarifying ambiguous requirements, and delivering accurate, high-confidence releases.
 
-## Fintive | Senior Automation/Software Engineer | November 2025-Present
+## Fintive | Senior Automation/Software Engineer | November 2025-August 2026
 
 - Built and enhanced financial-analysis workflows for an AWS-hosted, multi-tenant banking platform, delivering historical and annualized trend analysis, loan and obligor workflows, financial-statement calculations, exports, and automated regression coverage across React, TypeScript, Node/Express, MySQL, and Playwright.
 
@@ -26,15 +26,25 @@ Senior Automation/Software Engineer with 15+ years of experience building and va
 
 - Hardened AI-assisted appraisal and document-extraction workflows with malformed-JSON handling, retry behavior, feature-flagged rollout controls, and bank-cohort configuration.
 
+- Used Claude Code as a core development tool, with agents and subagents automating much of the development process.
+
 - Applied AI-assisted development workflows to codebase analysis, story refinement, requirements clarification, technical documentation, troubleshooting, test planning, and implementation support; shared practical AI techniques with teammates and helped develop repeatable engineering practices.
 
 - Converted exploratory test findings into structured user stories, accelerating sprint velocity by approximately 0.5-1 day per sprint.
 
-- Introduced a shadow-copy development workflow that reduced new-story setup time from approximately 10 minutes to 2 minutes and reduced local storage requirements from roughly 1 GB to 200 MB.
+- Wrote Bash scripts to automate development tasks and complex Git workflows, including a shadow-copy development workflow that reduced new-story setup time from approximately 10 minutes to 2 minutes and reduced local storage requirements from roughly 1 GB to 200 MB.
 
 ## OCG Companies | Director of Software Development / Technical Lead | August 2021-November 13, 2025
 
 - Led software delivery for MegaMax and related field-service platforms while managing four offshore engineers, two onshore engineers, and one intern; remained hands-on in architecture, development, troubleshooting, stakeholder discovery, and code review.
+
+- Built the engineering team from scratch. Owned the relationship with the vendor that supplied the offshore engineers, negotiating vendor costs and meeting regularly to maintain team performance and address concerns. Set performance goals, including SMART goals, with every developer.
+
+- Partnered with senior leadership on a new roadmap for MegaMax; established product owners and a feature sign-off structure, and reported regularly to leadership on deployed features and user requests before implementation.
+
+- Delivered hard-deadline feature requests alongside an internally managed release schedule. Tracked throughput by story points and completed stories per week; the team set its own goals to improve estimation accuracy and predictability.
+
+- Used GitHub Copilot extensively to accelerate development; diagnosed and fixed a broken notification system that sent account-assistance emails.
 
 - Developed, but did not fully implement, a warehouse storage system for equipment and supplies; added supplies and equipment tracking to MegaMax job-cost reporting.
 
@@ -46,7 +56,9 @@ Senior Automation/Software Engineer with 15+ years of experience building and va
 
 - Designed and delivered a greenfield GIS-enabled pole-inspection platform that scaled from approximately 200 to 1,000 poles per week, connecting ArcGIS Online, offline field capture, inspection photos, Dcalc analysis, audit dashboards, customer reporting, and contract-based billing.
 
-- Reduced false-positive inspection audit findings from approximately 300 per 1,000 poles to fewer than 40 per 1,000 poles by creating dashboards that flagged likely errors across roughly 50 inspection data points for targeted review.
+- Wrote custom ETL scripts to transform client-formatted pole data into the ArcGIS data model. Configured and deployed the field data-collection app (ArcGIS Collector) and maps on the ArcGIS Online low-code platform, and trained a foreman to set up new maps and crew assignments independently.
+
+- Reduced false-positive inspection audit findings from approximately 300 per 1,000 poles to fewer than 40 per 1,000 poles by creating custom dashboards that flagged likely errors across roughly 50 inspection data points for targeted review.
 
 - Designed the migration from MegaMax's existing Miss Dig workflows to a new provider model, preserving ticket-status visibility and automatic or manual ticket-to-job assignment while improving status timeliness and reducing back-office maintenance effort.
 
@@ -64,9 +76,15 @@ Senior Automation/Software Engineer with 15+ years of experience building and va
 
 - Tuned New Relic alerting and performance metrics, used New Relic and Splunk to troubleshoot reported user issues and resolve account problems, and added application signals for user-conversion and progress tracking to improve the overall user experience.
 
+- Built Spring Boot API services that followed microservice principles, with each service tightly scoped to a single action or domain.
+
+- Set up and tuned Kubernetes deployments for new applications using established templates, with automatic node scaling based on traffic.
+
+- Integrated an SMS notification service into candidate registration, including user opt-in and mobile phone number capture.
+
 ## Technical Environment
 
-React, TypeScript, Java, Spring, Node.js, Express, MySQL, MariaDB, limited PostgreSQL, Sequelize, Playwright, Vitest, Cypress, Redux Toolkit, AWS, Microsoft Azure, Auth0, Docker, New Relic, Splunk, warehouse and equipment workflows, and TypeScript monorepo architecture.
+React, TypeScript, Java, Spring, Spring Boot, Node.js, Express, PHP, Laravel, SQL, MySQL, MariaDB, limited PostgreSQL, Sequelize, Bash, Playwright, Vitest, Cypress, Redux Toolkit, AWS, Microsoft Azure, Auth0, Docker, Kubernetes, Jenkins, ArcGIS Online, ArcGIS Collector, Claude Code, GitHub Copilot, New Relic, Splunk, warehouse and equipment workflows, and TypeScript monorepo architecture.
 
 ## Education
 
