@@ -1,6 +1,6 @@
 # David Gordhamer
 
-Greater Minneapolis-St. Paul Area
+Greater Minneapolis-St. Paul Area | https://www.linkedin.com/in/davidgordhamer/
 
 ## Professional Summary
 
