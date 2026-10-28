@@ -51,6 +51,7 @@ This is the source of truth for resume facts. Add evidence here before tailoring
 - Created Claude skills for routine work: pulling up diffs against branches and gauging change complexity, creating pull requests with before-and-after screenshots via the Playwright MCP server, and writing detailed PR descriptions of the code changes and why they were needed (source: personal recollection, 2026-10-28).
 - Wrote shell script utilities with AI help and shared them with the team, including resetting the local dev environment, cleaning up build artifacts, and building and resetting Docker images (source: personal recollection, 2026-10-28).
 - Used AI to load and analyze AWS logs to troubleshoot production issues (source: personal recollection, 2026-10-28).
+- Used AI heavily to analyze existing front-end and back-end code patterns and extracted rules to use going forward for new development and end-to-end tests (source: personal recollection, 2026-10-28).
 
 ## OCG Companies
 
@@ -109,6 +110,15 @@ This is the source of truth for resume facts. Add evidence here before tailoring
 - Built client-facing job progress, job status, and photo report pages (three pages) largely with GitHub Copilot, enforcing strict per-client data isolation in a multi-client system. Real clients beta tested in production about one week after requirements were settled; refinements finished in about three weeks (source: personal recollection, 2026-10-28).
 - Migrated MegaMax front end off PHP-rendered pages toward React (and Vue.js): no new PHP front-end code, PHP front-end pages rewritten in React when touched, PHP retained for back-end services. The cutoff was David's decision (source: personal recollection, 2026-10-28).
 - Each client had configured billing rules, job types, and measurements; automated bill delivery in the specific format required by a Detroit electric utility (source: personal recollection, 2026-10-28).
+- Code review became a bottleneck: David was spending review time on issues (style, naming) that should not have reached him, when his focus needed to be logic and business goals. He implemented an AI code review with specific instructions that developers ran before handing off for his review; by his estimate it caught about 90% of those issues, freeing his reviews for product quality and making the team more self-reliant and efficient (source: personal recollection, 2026-10-28). AI review began around late September/October 2024 (confirmed 2026-10-28). The AI review prompt was introduced shortly after the team started using AI; earlier recollection of AI adoption "around 2023" may be early (source: personal recollection, 2026-10-28).
+- MegaMax git history (analyzed 2026-10-28): commits by other developers referencing PR/MR/review suggestions rose from 0 (Jan-May 2024) to 2 of 49 (Jun), 10 of 104 (Jul), 11 of 102 (Aug), and 15 of 107 (Sep 2024, 14%), then 0 of 75 in Oct 2024 and 1 total from Nov 2024-May 2025. PR feedback still happened after October 2024 but was likely committed under messages like "fix xyz", so describe the drop as "nearly 0%" (source: personal recollection, 2026-10-28). Causation is inferred from timing; release speed could not be measured because activity declined from Nov 2024 as OCG wound down.
+- Coaching cadence: standups three times a week, one-on-one coaching and feedback twice a month with each developer, and ad hoc check-ins while monitoring story progress (source: personal recollection, 2026-10-28).
+- Offshore developers were all contractors selected from the staffing vendor. Handled the initial contract negotiation and the ongoing relationship as attrition occurred or different skill sets were required, including working through scheduling and workload logistics during a developer's maternity leave (source: personal recollection, 2026-10-28).
+- Throughput per sprint increased after the AI review, but this is not measurable from available data; do not claim (source: personal recollection, 2026-10-28).
+- Pioneered AI use in OCG software development; the team used it heavily to augment development. Also encouraged business users to use AI in their spreadsheets and other daily workflows, such as assembling photos to send to clients and massaging spreadsheets for import into OCG systems (source: personal recollection, 2026-10-28).
+- Collaborated with user groups and stakeholders to establish clear direction for the product, deciding how features fit into the timeline and feature set, and prioritized the work (source: personal recollection, 2026-10-28).
+- Screened each offshore contractor candidate from the staffing vendor and built the team to work well with OCG and with each other, with attention to team culture (source: personal recollection, 2026-10-28).
+- Miss Dig migration design maintained backward compatibility with existing MegaMax workflows (source: personal recollection, 2026-10-28).
 
 ## Pearson VUE
 
@@ -119,7 +129,7 @@ This is the source of truth for resume facts. Add evidence here before tailoring
 - Worked closely with quality assurance engineers to structure and write tests, with a longstanding interest in QA and testability.
 - Partnered with QA and development teams to improve accessibility (a11y), semantic correctness, and maintainability of web applications.
 - Helped make page elements easier to identify in automated tests by using meaningful named attributes and stable selectors instead of brittle XPath expressions.
-- Technical environment: Java EE, Spring, Spring Boot, Spring Data, Hibernate, JPA, OAuth2, AngularJS, Backbone.js, Node.js, Gradle, JBoss, TeamCity, Jenkins, Kubernetes, JUnit, Mockito, and PowerMockito.
+- Technical environment: Java EE, Spring, Spring Boot, Spring Data, Hibernate, JPA, OAuth2 (not recalled by David on 2026-10-28; don't use unless confirmed), AngularJS, Backbone.js, Node.js, Gradle, JBoss, TeamCity, Jenkins, Kubernetes, JUnit, Mockito, and PowerMockito.
 - Much of the Pearson VUE work was performed on Microsoft Azure; Azure was used almost exclusively (source: personal recollection, 2026-10-19).
 - CI/CD mostly used Jenkins; some Azure DevOps usage is believed but not confirmed (source: personal recollection, 2026-10-19).
 
@@ -129,7 +139,7 @@ This is the source of truth for resume facts. Add evidence here before tailoring
 - Helped pilot rich-client JavaScript single-page application patterns backed by RESTful Java services and distributed service integrations.
 - Helped establish Agile delivery, code review, automated testing, mentoring, and cross-team knowledge-sharing practices.
 - Owned defect triage by prioritizing reported issues, assessing root causes, assigning work across teams, and implementing fixes and enhancements.
-- Resolved complex multi-tier issues involving domain-object serialization, cross-tier proxy communication, RESTEasy error handling, and application-infrastructure behavior.
+- Resolved complex multi-tier issues involving domain-object serialization, cross-tier proxy communication, RESTEasy error handling, and application-infrastructure behavior. David doesn't recall "cross-tier proxy communication"; don't use it unless he can explain it (2026-10-28).
 - Tuned New Relic alerting and performance metrics, used New Relic and Splunk to troubleshoot reported user issues and resolve account problems, and added application signals for user-conversion and progress tracking to improve the overall user experience.
 - Worked with architects to standardize REST practices, HTTP error-code usage, REST verbs, JPA patterns, and persistence-layer conventions.
 - Introduced and trained teammates on Mockito and PowerMockito testing and mocking practices.
@@ -138,6 +148,7 @@ This is the source of truth for resume facts. Add evidence here before tailoring
 - Participated regularly in on-call rotations and production release support (source: personal recollection, 2026-10-27).
 - Worked on WebNG and VTS (source: personal recollection, 2026-10-28).
 - Front-end framework experience at Pearson VUE was AngularJS; no Angular 2+ experience (source: personal recollection, 2026-10-28).
+- AngularJS and Backbone.js were likely part of the SPA pilot, but recollection is foggy; did front-end work in both (source: personal recollection, 2026-10-28).
 - Integrated an SMS system for candidate notifications, including user opt-in and mobile phone number entry (source: personal recollection, 2026-10-20; confirm level of ownership).
 
 ## Previous Employers
