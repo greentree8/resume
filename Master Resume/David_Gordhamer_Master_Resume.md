@@ -1,6 +1,6 @@
 # David Gordhamer
 
-Greater Minneapolis-St. Paul Area | 952-288-8349 | davidlg@gmail.com
+Greater Minneapolis-St. Paul Area | 952-288-8349 | davidlg@gmail.com | https://www.linkedin.com/in/davidgordhamer/
 
 ## Professional Summary
 

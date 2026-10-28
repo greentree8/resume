@@ -76,5 +76,5 @@ The platform operated under SOC and PII compliance constraints (personal recolle
 
 - Git evidence comes from the Fintive repository history in the September 3, 2026 checkout.
 - The 134-commit and 55-test-commit figures are repository-history counts, not business-impact metrics.
-- Employment dates recorded as November 2025 through August 2026; confirm exact end date.
+- Employment dates: November 2025 through August 2026 (end date confirmed 2026-10-27).
 - Confirm exact job title, user counts, revenue impact, and production performance metrics before adding them.
