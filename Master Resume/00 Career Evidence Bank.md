@@ -119,6 +119,7 @@ This is the source of truth for resume facts. Add evidence here before tailoring
 - Collaborated with user groups and stakeholders to establish clear direction for the product, deciding how features fit into the timeline and feature set, and prioritized the work (source: personal recollection, 2026-10-28).
 - Screened each offshore contractor candidate from the staffing vendor and built the team to work well with OCG and with each other, with attention to team culture (source: personal recollection, 2026-10-28).
 - Miss Dig migration design maintained backward compatibility with existing MegaMax workflows (source: personal recollection, 2026-10-28).
+- The code review situation was heading in an unsustainable direction; after the AI pre-review the team became more self-reliant and settled into a performing state, delivering the features the business wanted in the expected timeframe (source: personal recollection, 2026-10-29). A reviewer misread "PR-feedback commits" as "comments"; describe the metric as rework commits from review feedback.
 
 ## Pearson VUE
 
