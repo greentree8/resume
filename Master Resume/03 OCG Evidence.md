@@ -33,6 +33,10 @@ Director of Software Development / Technical Lead at OCG Companies from August 2
 - Fixed an existing, broken notification system for sending account-assistance emails; did not build it originally (personal recollection, 2026-10-20).
 - Used GitHub Copilot extensively to accelerate development (personal recollection, 2026-10-23).
 - Used AI-assisted analysis for technical research, troubleshooting, requirements review, documentation, and development planning as AI tooling became part of the engineering workflow.
+- MegaMax architecture: PHP and Laravel for routing and services, with Apache in front; React and Vue.js front-end code bundled with webpack into compact production files for faster downloads and fewer network requests at load time; static content served from a read-only path (source: personal recollection, 2026-11-04).
+- MegaMax data tier: MariaDB on AWS, with managed RDS for production and self-managed instances on Linux EC2 servers for lower environments such as test and sandbox (source: personal recollection, 2026-11-04).
+- MegaMax used an address normalization service when creating new addresses and jobs (source: personal recollection, 2026-11-04).
+- MegaMax job visibility was layered by role: foremen saw only their assigned jobs; client users saw all of their own company's jobs regardless of assigned foreman, and a contract permission, used only for client users, could further limit them to the jobs under a given contract. Back-office project managers set up the contract configuration (source: personal recollection, 2026-11-04).
 
 ## Fleetio Integration
 
@@ -62,13 +66,13 @@ Director of Software Development / Technical Lead at OCG Companies from August 2
 - Wrote custom ETL scripts to transform client-formatted pole data into the ArcGIS database structure (personal recollection, 2026-10-19).
 - Configured and deployed the field data-collection app (ArcGIS Collector) and maps through ArcGIS Online, a low-code configuration platform, rather than custom code (personal recollection, 2026-10-19).
 - Designed the ArcGIS database structure, map templates, field-worker configuration, user-management setup, and APIs that exchanged inspection data and photos with ArcGIS Online.
-- Integrated Dcalc, a third-party engineering system that calculated pole strength from measured pole dimensions and damage areas captured during inspection.
+- Integrated the inspection solution with Dcalc, a third-party engineering system (not written by David), so pole strength was calculated accurately from the measured pole dimensions and damage areas captured during inspection (wording confirmed by David, 2026-11-11).
 - Implemented rules that limited equipment-damage choices based on pole location, age, and customer-provided attributes, reducing data-entry errors and speeding field lookup.
 - Replaced error-prone manual photo association with offline-capable field workflows that kept photos linked to the correct pole in low-connectivity areas.
 - Created reusable map templates that standardized pole imports, segment presentation, icons, and colors, reducing manual map-preparation work; later trained a foreman to independently set up new maps and arrange crew assignments in ArcGIS Online once data was imported (personal recollection, 2026-10-19).
 - Built custom-code audit dashboards (not ArcGIS Dashboards; personal recollection, 2026-10-19) that flagged likely errors across approximately 50 inspection data points, enabling program managers to focus review on high-risk records.
 - Improved audit quality by reducing false-positive findings from approximately 300 per 1,000 poles to fewer than 40 per 1,000 poles, with remaining issues clearly flagged for rapid correction.
-- Connected completed inspection results and contract-pricing rules to precise billing line-item generation for customer review and approval.
+- Pole-inspection billing was an automated process, custom per program and contract. Several contracts with differing pricing structures had to be maintained, and billing applied the pricing of whichever contract was in force for the particular circuit of poles (source: David's correction, 2026-11-11). Billing rules configured per customer were MegaMax, not pole inspections; do not describe pole billing as per-customer rules.
 - Scaled the operation from approximately 200 poles to 1,000 poles per week, with photo-processing volumes reaching approximately 35 GB per circuit over two weeks.
 - Technical environment included PHP, Laravel, JavaScript, Vue.js, React, MySQL, MariaDB, Flutter, Rust, ArcGIS Online, ArcGIS Field Maps, ArcGIS Collector, Google Maps APIs, Docker, AWS, GitHub, GitHub Copilot, GitLab, Jira, REST APIs, and Google Maps APIs.
 
@@ -78,6 +82,8 @@ Director of Software Development / Technical Lead at OCG Companies from August 2
 - Worked directly with every user group, including back-office staff, field users, finance analysts, internal stakeholders, and clients (personal recollection, 2026-10-15).
 - On the pole-inspection program, met weekly with clients to monitor software usability and stability and identify improvements (personal recollection, 2026-10-15).
 - Trained field workers both on inspection procedures and on using the inspection software the team built (personal recollection, 2026-10-15).
+- Jarvis service design: rather than duplicating services for the mobile app, kept one service for each function, reused by both the back-office applications and Jarvis. This avoided maintenance headaches and kept results accurate and consistent between the apps (source: personal recollection, 2026-11-05).
+- Used AI constantly to understand the legacy PHP: tracing calls and flows through the code to see how a change would affect other areas of the code and connected systems. For example, when changing services for Jarvis, used this to make sure other systems and parts of the original app were not adversely affected (source: personal recollection, 2026-11-05). This is separate from the PHP-to-React rewrite, which David has said did not use AI heavily.
 - Balanced hands-on engineering decisions with team leadership, delivery planning, troubleshooting, and stakeholder communication.
 
 ## Miss Dig Integration Modernization
@@ -87,6 +93,9 @@ Director of Software Development / Technical Lead at OCG Companies from August 2
 - Designed for both automatic and manual ticket-to-job assignment, reducing back-office effort required to maintain ticket associations and improving the speed at which accurate job status reached field workers.
 - Addressed integration reliability concerns including callback signature validation, missing-ticket handling, member-response persistence, provider-side configuration problems, legal-start-date behavior, and longer provider ticket identifiers.
 - Modernized a high-touch external integration so ticket status was more accurate and timely for back-office staff and field crews, while reducing manual data-entry overhead.
+- Miss Dig rewrite moved from pull to push. The old integration batched up tickets and polled for status changes. The new provider supported registered webhooks, so MegaMax was notified of each ticket status change and updated that one ticket, and the change was reflected on every job using it. This improved the design and reduced complexity. Batch ticket lookup remained, used only for initial ticket ingest and assignment; David is not certain of that scope, so confirm before claiming it (source: personal recollection, 2026-11-05).
+- Miss Dig role and timing: the vendor shut off its old system, so the work had to move quickly. David wrote the initial integration with the new system, plus how-tos, documentation, and the overall architecture, then handed the rest to a junior developer, who completed it in time. The old integration polled in a nightly batch, so a daytime ticket update waited until night or needed a manual pull; webhooks gave crews status in real time (source: personal recollection, 2026-11-05).
+- Miss Dig manual ticket updates fell from about 5,000 a year to about 400 one-offs after the webhook change (source: personal recollection, 2026-11-05). Not verified against data; confirm before using on a resume.
 
 ## Source Notes
 

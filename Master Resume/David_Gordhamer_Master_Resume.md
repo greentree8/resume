@@ -54,7 +54,9 @@ Senior Automation/Software Engineer with 15+ years of experience building and va
 
 - Expanded Job Cost into an admin-configurable domain and strengthened operational reporting across job cost, measurement, activity, billing, and field operations. Turned Job Search into a reusable ad-hoc reporting tool with filters, drill-down detail, and saved searches used as standardized reports.
 
-- Designed and delivered a greenfield GIS-enabled pole-inspection platform that scaled from approximately 200 to 1,000 poles per week, connecting ArcGIS Online, offline field capture, inspection photos, Dcalc analysis, audit dashboards, customer reporting, and contract-based billing.
+- Designed and delivered a greenfield GIS-enabled pole-inspection platform that scaled from approximately 200 to 1,000 poles per week, connecting ArcGIS Online, offline field capture, inspection photos, audit dashboards, customer reporting, and automated billing, and integrating with Dcalc, a third-party engineering system, to calculate pole strength accurately.
+
+- Automated pole-inspection billing across several contracts with differing pricing structures, applying the pricing of the contract in force for each circuit of poles.
 
 - Wrote custom ETL scripts to transform client-formatted pole data into the ArcGIS data model. Configured and deployed the field data-collection app (ArcGIS Collector) and maps on the ArcGIS Online low-code platform, and trained a foreman to set up new maps and crew assignments independently.
 
