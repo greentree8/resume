@@ -38,7 +38,7 @@ Senior Automation/Software Engineer with 15+ years of experience building and va
 
 - Led software delivery for MegaMax and related field-service platforms while managing four offshore engineers, two onshore engineers, and one intern; remained hands-on in architecture, development, troubleshooting, stakeholder discovery, and code review.
 
-- Built the engineering team from scratch. Owned the relationship with the vendor that supplied the offshore engineers, negotiating vendor costs and meeting regularly to maintain team performance and address concerns. Set performance goals, including SMART goals, with every developer.
+- Built the engineering team from scratch. Owned the relationship with the third-party vendor that supplied the offshore development team, negotiating vendor costs and meeting regularly to maintain team performance and address concerns. Set performance goals, including SMART goals, with every developer.
 
 - Partnered with senior leadership on a new roadmap for MegaMax; established product owners and a feature sign-off structure, and reported regularly to leadership on deployed features and user requests before implementation.
 
@@ -56,13 +56,15 @@ Senior Automation/Software Engineer with 15+ years of experience building and va
 
 - Designed and delivered a greenfield GIS-enabled pole-inspection platform that scaled from approximately 200 to 1,000 poles per week, connecting ArcGIS Online, offline field capture, inspection photos, audit dashboards, customer reporting, and automated billing, and integrating with Dcalc, a third-party engineering system, to calculate pole strength accurately.
 
+- Worked with the Dcalc vendor's developers to define new APIs and callbacks that populated ArcGIS Field Maps input fields with calculation results automatically; explained the need, proposed the solution, and agreed the changes each side would make.
+
 - Automated pole-inspection billing across several contracts with differing pricing structures, applying the pricing of the contract in force for each circuit of poles.
 
 - Wrote custom ETL scripts to transform client-formatted pole data into the ArcGIS data model. Configured and deployed the field data-collection app (ArcGIS Collector) and maps on the ArcGIS Online low-code platform, and trained a foreman to set up new maps and crew assignments independently.
 
 - Reduced false-positive inspection audit findings from approximately 300 per 1,000 poles to fewer than 40 per 1,000 poles by creating custom dashboards that flagged likely errors across roughly 50 inspection data points for targeted review.
 
-- Designed the migration from MegaMax's existing Miss Dig workflows to a new provider model, preserving ticket-status visibility and automatic or manual ticket-to-job assignment while improving status timeliness and reducing back-office maintenance effort.
+- Designed the migration from MegaMax's existing Miss Dig workflows to a new provider model, preserving ticket-status visibility and automatic or manual ticket-to-job assignment while improving status timeliness and reducing back-office maintenance effort. Worked with the provider's team on changes needed to re-query tickets that missed a webhook and to match tickets to job IDs.
 
 ## Pearson VUE | Engineering Lead / Senior Java Developer / Software Developer | December 2009-July 2021
 
